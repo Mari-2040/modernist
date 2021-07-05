@@ -1,0 +1,461 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteineri{
+
+    background-color: #290000;
+    width: 1024px;
+    margin: auto;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+   
+}
+
+.header{
+
+    font-size: 25px;
+    margin: 15px;
+}
+
+.yes  {
+
+    font-size: 14px;
+   line-height: 11px;
+  color: #979797;
+}
+
+.user{
+
+    display: flex;
+    float: right;
+    padding: 15px;
+}
+
+.info{
+
+    margin-left: 30px;
+}
+
+.surati{
+
+    height: 27px;
+    align-self: center;
+
+}
+
+.text{
+
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dead{
+
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+.noy{
+    width: 322px;
+    height: 78px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #979797;;
+}
+
+.batoni{
+
+    width: 164px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #76c38f;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.header2{
+
+    margin: 15px;
+}
+
+.wre{
+    width: 380px;
+    height: 380px;
+    border-radius: 215px;
+    background-color: #333333;
+    padding: 120px;
+    font-size: 30px;
+    margin: auto;
+    border: 25px solid #6b6b6b;
+    margin-right: 20px;
+}
+
+.isari{
+    height: 27px;
+align-self: center;
+}
+
+.dan{
+
+    padding: 26px;
+    background-color: wheat;
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+
+
+
+
+
+.services{
+    color: #ffff;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #660000;
+}
+
+.services_item{
+
+    background-color: #FFF;
+    padding: 20px;
+    margin: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+.services_item:hover{
+
+    background-color: #76c38f;
+    color: #ffff;
+}
+.services_item:hover .item_pic{
+    color: #333333;
+    background-color: #ffff;
+
+}
+.item_pic{
+    width: 120px;
+    height: 120px;
+    background-color: #333333;
+    text-align: center;
+    margin: auto;
+    color: #ffff;
+}
+
+.work{
+
+    width: 145px;
+    height: 55px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+
+}
+.satauri{
+
+    font-size: 30px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.xazi{
+    background-color: #303030;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.xazi_item
+{
+    background-color: #303030;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    align-self: center;
+
+}
+
+
+.feri{
+
+    background-color: #660000;
+    padding: 50px 0;
+
+}
+
+
+
+
+.cul{
+   background-color: #660000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.yuti{
+
+    margin-bottom: 20px;
+    background-color: #353535;
+    width: 290px;
+    height: 190px;
+    border: 10px solid #ffff;
+    position: relative;
+}
+
+
+.yuti:hover .lorem_item{
+
+height: 15px;
+
+}
+.klasi1 .klasi2 {
+    background-color: #660000;
+}
+.yuti:hover{
+
+    border-color: #76c38f;
+}
+
+.yuti:active{
+
+    background-color: #660000;
+}
+
+.lorem_item{
+
+    height: 0px;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color:  #000;
+    left: 0;
+    width: 100%;
+   transition:  0.5s;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.cipri{
+
+    font-size: 24px;
+    padding: 67px;
+    color: #ffffff;
+}
+
+
+.Post{
+
+    color:  #979797;
+    width: 200px;
+    margin-right: 67px;
+}
+
+
+.BLOG{
+
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #303030;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog_item{
+
+    font-size: 25px;
+    line-height: 80px;
+    color: #ffffff;
+
+}
+
+.item{
+
+    font-size: 29px;
+    line-height: 45px;
+    color: #76c38f;
+}
+
+.Admin{
+
+    font-size: 18px;
+    line-height: 35px;
+    color: #76c38e
+}
+
+.Fridy{
+
+    font-size: 17px;
+    line-height: 30px;
+    color: #979797;
+
+}
+
+.sed{
+    width: 224px;
+    height: 144px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #979797;
+}
+
+
+.read{
+
+    font-size: 16px;
+    line-height: 25px;
+    color: #76c38f;
+}
+
+
+.Link{
+
+    font-size: 16px;
+    line-height: 40px;
+    margin-right: 40px;
+    color: #76c38f;
+
+}
+
+.QUICK LINK{
+
+font-size: 25px;
+    line-height: 68px;
+    color: #ffffff;
+
+}
+
+.lorem{
+
+
+    font-size: 18px;
+}
+
+.Latest{
+
+    font-size: 22px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.name{
+
+    color: #979797;
+    width: 224px;
+    height: 224px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.here{
+
+    color: #979797;
+    width: 224px;
+    height: 133px;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
+
+
+.us{
+
+    font-size: 18px;
+    line-height: 19px;
+    color: #ffffff;
+
+}
+
+
+.Fuul{
+
+    color: #989898;
+    background-color: #2222;
+    border-radius: 15px;
+    padding: 11px;
+}
+
+
+.email{
+
+    color: #989898;
+    background-color: #2222;
+    border-radius: 15px;
+    padding: 11px;
+}
+
+
+.subjeq{
+
+    color: #989898;
+    background-color: #2222;
+    border-radius: 15px;
+    padding: 11px;
+}
+
+.mesig{
+
+    color: #989898;
+    background-color: #2222;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.clik{
+
+    font-size: 15px;
+    line-height: 40px;
+    color: #303030;
+    width: 85px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: #76c38f;
+}
+
+
+
+.Contact{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Contact input {
+
+    border: none;
+    
+}
